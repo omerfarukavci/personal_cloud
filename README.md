@@ -40,11 +40,17 @@ Kurulum için bir micro SD karta Raspberry Pi OS kurularak Raspberry Pi Zero W c
 
 <p align="center">
   <img alt="Raspberry Pi Imager" src="/images/raspberrypi_imager_settings.png">
-  <br><em>Raspberry Pi Imager settings</em>
+  <br><em>Raspberry Pi Imager ayarları</em>
 </p>
+
+<br>
 
 Not: Raspberry Pi’ye SSH ile bağlantı yapabilmek için IP adresini öğrenmenin çeşitli yolları bulunmaktadır. Ben modem arayüzüne bağlanıp ağa bağlı cihazları görüntüleyip oradan IP adresine ulaşmayı tercih ettim.
 
+<p align="center">
+  <img alt="Learn Raspberry Pi IP address" src="/images/modem_devices.png">
+  <br><em>Modem arayüzünden bağlı olan cihazları görüntüleme</em>
+</p>
 <br>
 
 ## &nbsp;&nbsp;&nbsp;&nbsp;3.2.	Docker:
@@ -94,7 +100,7 @@ Artık kurulum tamamlanmıştır. Son olarak kendi IP adresinizi girerek **http:
 
 <p align="center">
   <img alt="Creating an admin account" src="/images/nextcloud_install_01.png">
-  <br><em>Creating an admin account</em>
+  <br><em>Admin hesabı oluşturma</em>
 </p>
 
 -	Data klasörü default olarak ***/var/www/html/data*** yolu olarak gelmektedir, istenirse değiştirilebilir.
@@ -103,7 +109,7 @@ Artık kurulum tamamlanmıştır. Son olarak kendi IP adresinizi girerek **http:
 
 <p align="center">
   <img alt="Configure data folder and database" src="/images/nextcloud_install_02.png">
-  <br><em>Configure data folder and database</em>
+  <br><em>Data klasörü ve veritabanı ayarları</em>
 </p>
 
 -	Son olarak eğer isteniyorsas **Install recommended apps** kutucuğuna tıklanarak **Calendar, Contacts, Talk, Mail & Collaborative editing** uygulamalarının da kurulumu onaylanabilir. ***Finish Setup*** butonuna tıklanarak kurulumun bitmesi ve Nextcloud anasayfasının açılması beklenir.
@@ -127,7 +133,7 @@ Artık kurulum tamamlanmıştır. Son olarak kendi IP adresinizi girerek **http:
 
 <p align="center">
   <img alt="Configure Nextcloud mobile" src="/images/nextcloud_mobile.png">
-  <br><em>Configure Nextcloud mobile</em>
+  <br><em>Nextcloud mobile ayarları</em>
 </p>
 
 <br>
@@ -165,7 +171,7 @@ search = dif("C:/Path/to/Folder_A/", "C:/Path/to/Folder_B/")
 **search** sınıfının **result** niteliği kullanılarak sonuçlar yazdırılabilir:
 <p align="center">
   <img alt="difPy example usage" src="/images/difPy_01.png">
-  <br><em>difPy example usage</em>
+  <br><em>difPy örnek kullanımı</em>
 </p>
 
 <br><br>
