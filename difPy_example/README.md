@@ -15,7 +15,7 @@ def test1(): #Tek klasordeki fotograflari karsilastirir.
   <br><em>test1 fonksiyonu çıktısı</em>
 </p>
 
-**folder1** incelenmiş, 7 fotoğraftan orjinal olanı bulunmuş ve diğerleri ```python3 delete=True ``` parametresi ile kullanıcıya sorularak silinmiştir. Silinen fotoğrafların hangilerinin olduğu ekrana yazılmıştır. Son olarak da hangi fotoğrafın hangi fotoğrafa benzediği, klasörleri gibi bilgiler gösterilmiştir. Klasörün kod çalışmadan önceki hali ve sonraki hali ise şöyledir:
+**folder1** incelenmiş, 7 fotoğraftan orjinal olanı bulunmuş ve diğerleri ```python3 delete=True ``` parametresi ile kullanıcıya sorularak silinmiştir. Silinen fotoğrafların hangilerinin olduğu ekrana yazılmıştır. Son olarak da hangi fotoğrafın hangi fotoğrafa benzediği, hangi klasörde bulunduğu gibi bilgiler gösterilmiştir. Klasörün kod çalışmadan önceki hali ve sonraki hali ise şöyledir:
 
 <p align="center">
   <img alt="Kod çalışmadan önce ve sonra klasörün durumları" src="/images/output3.PNG">
