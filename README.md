@@ -1,5 +1,10 @@
 # 1.	Özet
-Bu projede Raspberry Pi Zero W üzerinde, Docker konteynerizasyon ile Nextcloud bulut sistemi ve PostgreSQL veritabanı kullanılarak kişisel bulut sistemi yapılmıştır. Aynı zamanda mobil cihazlarımıza hızla akan verilerde özellikle fotoğraf arşivlerinde düzenleme yapma amacı güdülmüştür. Farklı isimlerde olan veya üzerine çeşitli efektler (Örn; Instagram filtreleri) yapılan fotoğrafların farklı isimlerle kaydolup olmadığını, benzerlik seviyesini ölçen bir sistem de geliştirilmiştir.
+Bu proje Marmara Üniversitesi lisansüstü eğitimim kapsamında Sayın Dr. Öğr. Üyesi Serkan Aydın'ın Gömülü Sistemler ve Mobil Uygulamalar dersi için geliştirilmiştir. Projede Raspberry Pi Zero W üzerinde, Docker konteynerizasyon ile Nextcloud bulut sistemi ve PostgreSQL veritabanı kullanılarak kişisel bulut sistemi yapılmıştır. Aynı zamanda mobil cihazlarımıza hızla akan verilerde özellikle fotoğraf arşivlerinde düzenleme yapma amacı güdülmüştür. Farklı isimlerde olan veya üzerine çeşitli efektler (Örn; Instagram filtreleri) yapılan fotoğrafların farklı isimlerle kaydolup olmadığını, benzerlik seviyesini ölçen bir sistem de geliştirilmiştir.
+
+<p align="center">
+  <img alt="Personal Cloud System" src="/images/personal_cloud_system.png">
+  <br><em>Personal Cloud System</em>
+</p>
 
 <br><br>
 
