@@ -1,6 +1,6 @@
 #	difPy Örnek Kullanım:
 
-Bu örneğimizde **folder1** ve **folder2** olmak üzere iki klasörümüz bulunmakta. Örnek olması açısından iki klasörde de orjinal fotoğraf, bu fotoğrafın Gaussian Blur, Lens Blur uygulanmış halleri ve farklı yüzdelere sahip düşük kalitelerde kaydedilmiş versiyonları bulunmaktadır. **difPy_example.py** dosyasını çalıştırdığımızda, dosyada iki fonksiyon bulunmaktadır. Sırayla inceleyelim:
+Bu örneğimizde **folder1** ve **folder2** olmak üzere iki klasörümüz bulunmakta. Örnek olması açısından iki klasörde de orjinal fotoğraf, bu fotoğrafın Gaussian Blur, Lens Blur uygulanmış halleri ve farklı yüzdelere sahip düşük kalitelerde kaydedilmiş versiyonları bulunmaktadır. Fotoğraflar sırayla açıldığında bu farklar gözle de görülebilir. **difPy_example.py** dosyasını çalıştırdığımızda, dosyada iki fonksiyon bulunmaktadır. Sırayla inceleyelim:
 
 ###	test1 fonksiyonu:
 ```python3
