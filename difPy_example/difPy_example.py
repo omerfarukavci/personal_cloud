@@ -10,6 +10,6 @@ def test2(): #Iki klasordeki fotograflari karsilastirir.
 
 
 if __name__ == '__main__':
-    test2()
-    print('*' * 70)
     test1()
+    print('*' * 70)
+    test2()
