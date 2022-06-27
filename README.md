@@ -144,7 +144,7 @@ Artık kurulum tamamlanmıştır. Son olarak kendi IP adresinizi girerek **http:
 <br>
 
 ## &nbsp;&nbsp;&nbsp;&nbsp;3.5.	Nextcloud Sunucusunu İnternet Ortamına Açma
-Nextcloud sunucusu sadece iç ağ ortamında kullanılmak isteniyorsa bu haliyle yeterlidir. Kullanıcı; wifi ağına bağlandığında otomatik olarak cihazındaki veriler buluta depolanacaktır. Ancak dışarı açılmak isteniyorsa statik IP almak, bir domaine bağlamak gibi yöntemler kullanılabilir. Seçilen yönteme göre ya da modem markasına göre izlenecek yollarda farklılıklar oluşabilmektedir. Bu yüzden konu hakkında daha ileri okuma için [link](https://che-adrian.medium.com/make-your-nextcloud-ready-for-accessing-over-the-internet-9a17116a44ce) takip edilebilir:
+Nextcloud sunucusu sadece iç ağ ortamında kullanılmak isteniyorsa bu haliyle yeterlidir. Kullanıcı; wifi ağına bağlandığında otomatik olarak cihazındaki veriler buluta depolanacaktır. Ancak dışarı açılmak isteniyorsa statik IP almak, bir domaine bağlamak gibi yöntemler kullanılabilir. Seçilen yönteme göre ya da modem markasına göre izlenecek yollarda farklılıklar oluşabilmektedir. Bu yüzden konu hakkında daha ileri okuma için [link](https://che-adrian.medium.com/make-your-nextcloud-ready-for-accessing-over-the-internet-9a17116a44ce) takip edilebilir.
 
 
 
@@ -159,8 +159,8 @@ pip install difPy
 <br>
 
 # &nbsp;&nbsp;&nbsp;&nbsp;4.1.	Çalışma Mantığı ve Kullanımı
-Bir Python paketi olan difPy paketi; **OpenCV, NumPy, scikit-image, collections** gibi paket ve modülleri kullanır. Görüntü benzerliği için **MSE (Mean Squared Error)** kullanır. İki görüntü arasındaki ortalama kare hatası, iki görüntü arasındaki kare farkının toplamıdır. Hata ne kadar düşükse, görüntüler o kadar **“benzer”** olur. Konu hakkında ileri okuma için kaynak:
-[Finding Duplicate Images with Python | by Elise Landman | Towards Data Science]([https://www.google.com](https://towardsdatascience.com/finding-duplicate-images-with-python-71c04ec8051))
+Bir Python paketi olan difPy paketi; **OpenCV, NumPy, scikit-image, collections** gibi paket ve modülleri kullanır. Görüntü benzerliği için **MSE (Mean Squared Error)** kullanır. İki görüntü arasındaki ortalama kare hatası, iki görüntü arasındaki kare farkının toplamıdır. Hata ne kadar düşükse, görüntüler o kadar **“benzer”** olur. Konu hakkında ileri okuma için:
+[Finding Duplicate Images with Python | by Elise Landman | Towards Data Science](https://towardsdatascience.com/finding-duplicate-images-with-python-71c04ec8051)
 
 difPy ile bir klasördeki fotoğraflar şu komutlarla incelenir:
 ```sh
@@ -183,8 +183,8 @@ search = dif("C:/Path/to/Folder_A/", "C:/Path/to/Folder_B/")
 
 # 5.	Sonuçlar:
 Kurulan bu sistem gerek bireysel gerekse şirket içi depolama çözümleri için düşük maliyetli, güvenlik risklerini aza indiren, yeterli bir çözümdür. Dosyalara istenilen yerden de ulaşılabilir. Kullanışlı yönlerinden bir tanesi de veriler elimizin altındaki bir cihazda (sd card, flash bellek, hdd, ssd vb.) olduğundan bu cihazın yedeklemesini de hızlı ve güvenli bir şekilde yapabiliriz. Buradaki tek eksik taraf; Raspberry Pi Zero W cihazının bu proje için yetersiz kalmasıdır. Karşılaştığım iki büyük problem ise şunlardı:
--	Kopya fotoğrafları bulmak için kullandığım difPy paketi görüntü işleme kütüphanelerinden faydalandığı için yüksek işlem gücü gerektiriyordu ve bu da işlemlerimin çok yavaşlamasına ve Raspberry cihazımın çok ısınmasına sebebiyet veriyordu. Çözüm; daha yüksek işlem gücüne sahip bir cihaz kullanmak veya depolamayı burada yapıp hesaplamayı merkezi, işlem gücü yüksek bir cihazda yapmak.
--	Wifi üzerinden yapmış olduğum bağlantıda modemim ve bilgisayarım istediğim yüksek hızları vermesine rağmen Raspberry Pi Zero W bu konuda yetersiz kalıyordu. Bir hız testi yapmak için Raspberry komut satırında ```sh sudo apt install speedtest-cli``` komutu ile hız testi paketini kurdum. Daha sonra ```sh speedtest-cli``` komutuyla hız testini çalıştırdım ve **9.14 Mbit/s** hızını aldım. Bu da dosyaların çok geç yedeklenmesine sebebiyet veriyor. Bu yüzden network kartı daha iyi ve işlem gücü daha yüksek bir cihaz kullanımı yapılmalı. Çözüm; kablolu bağlantı yapmak veya daha yüksek donanımlı bir cihaz kullanmak.
+-	Kopya fotoğrafları bulmak için kullandığım difPy paketi görüntü işleme kütüphanelerinden faydalandığı için yüksek işlem gücü gerektiriyordu ve bu da işlemlerimin çok yavaşlamasına ve Raspberry cihazımın çok ısınmasına sebebiyet veriyordu. **Çözüm;** daha yüksek işlem gücüne sahip bir cihaz kullanmak veya depolamayı burada yapıp hesaplamayı merkezi, işlem gücü yüksek bir cihazda yapmak.
+-	Wifi üzerinden yapmış olduğum bağlantıda modemim ve bilgisayarım istediğim yüksek hızları vermesine rağmen Raspberry Pi Zero W bu konuda yetersiz kalıyordu. Bir hız testi yapmak için Raspberry komut satırında ```sh sudo apt install speedtest-cli``` komutu ile hız testi paketini kurdum. Daha sonra ```sh speedtest-cli``` komutuyla hız testini çalıştırdım ve **9.14 Mbit/s** hızını aldım. Bu da dosyaların çok geç yedeklenmesine sebebiyet veriyor. Bu yüzden network kartı daha iyi ve işlem gücü daha yüksek bir cihaz kullanımı yapılmalı. **Çözüm;** kablolu bağlantı yapmak veya daha yüksek donanımlı bir cihaz kullanmak.
 
 <p align="center">
   <img alt="Speedtest CLI" src="/images/speedtest_01.png">
