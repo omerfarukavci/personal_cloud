@@ -179,6 +179,8 @@ search = dif("C:/Path/to/Folder_A/", "C:/Path/to/Folder_B/")
   <br><em>difPy örnek kullanımı</em>
 </p>
 
+**Konu hakkındaki daha ayrıntılı örnek için repodaki [difPy_example](/difPy_example) klasörüne gidebilirsiniz.**
+
 <br><br>
 
 # 5.	Sonuçlar:
